@@ -1,0 +1,8 @@
+Main-Class: co.com.codesa.socketcodesaoperadorexterno.vista.formas.EjecucionConsola
+Manifest-Version: 1.0
+Built-By: Cristian Gomez Ruiz
+Build-Jdk: 1.7.0
+Created-By: Apache Maven 4.0.0
+Version: V 1.0
+Date: 13/03/2015
+Archiver-Version: Plexus Archiver

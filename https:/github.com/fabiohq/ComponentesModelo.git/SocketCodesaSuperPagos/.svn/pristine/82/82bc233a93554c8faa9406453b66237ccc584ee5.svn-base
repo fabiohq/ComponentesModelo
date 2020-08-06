@@ -1,0 +1,125 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<!--
+    TODO define vocabulary indentification
+    PUBLIC ID: -//vendor//vocabulary//EN
+    SYSTEM ID: http://server/path/configserver1.dtd
+
+--><!--
+    An example how to use this DTD from your XML document:
+
+    <?xml version="1.0"?>
+
+    <!DOCTYPE configuracion SYSTEM "configserver.dtd">
+
+    <configuracion>
+    ...
+    </configuracion>
+-->
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT configuracion (path_log|puerto|usuario|ip|driver|url|dataBase|timeRecarga|timeOutBd|paramRecarga|usuario1|clave1|clave2|prueba|fechaVence|titulo|listener|comentarios|minConnections|totalConnections|incrementoConexiones|maximoPrepareStatements|maxIdleTime|testConnectionOnCheckin|idleConnectionTestPeriod|maxIdleTimeExcessConnections|backup|ipdatapower|puertodatapower|urldatapower|jdbc|astro_luna|astro_sol|nitTigo|tipoConnect|webSwing|queryTimeout|iptopecentral|puertotopecentral|threadPool)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT path_log (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT puerto (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT usuario (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT ip (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT driver (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT url (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT dataBase (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT timeRecarga (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT timeOutBd (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT paramRecarga (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT usuario1 (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT clave1 (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT clave2 (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT prueba (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT fechaVence (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT titulo (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT listener (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT comentarios (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT minConnections (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT totalConnections (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT backup (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT ipdatapower (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT puertodatapower (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT urldatapower (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT jdbc (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT astro_luna (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT astro_sol (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT nitTigo (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT tipoConnect (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT webSwing (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT queryTimeout (#PCDATA)>
+
+<!ELEMENT iptopecentral (#PCDATA)>
+<!ELEMENT puertotopecentral (#PCDATA)>
+
+<!ELEMENT incrementoConexiones (#PCDATA)>
+<!ELEMENT maximoPrepareStatements (#PCDATA)>
+<!ELEMENT maxIdleTime (#PCDATA)>
+<!ELEMENT testConnectionOnCheckin (#PCDATA)>
+<!ELEMENT idleConnectionTestPeriod (#PCDATA)>
+<!ELEMENT maxIdleTimeExcessConnections (#PCDATA)>
+<!ELEMENT threadPool (#PCDATA)>

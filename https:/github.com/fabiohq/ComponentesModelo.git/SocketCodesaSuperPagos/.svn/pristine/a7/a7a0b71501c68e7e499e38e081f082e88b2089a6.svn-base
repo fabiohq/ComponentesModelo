@@ -1,0 +1,27 @@
+#Fichero de Configuraci\u00F3n logging.properties
+#Llamar con \u0096Djava.util.logging.config.file=C:\conf\logging.properties
+#Handlers: d\u00F3nde sacar las trazas. Predefinidos o programados
+#Predefinidos:
+# ConsoleHandler,FileHandler,MemoryHandler,StreamHandler,SocketHandler
+#Definimos que las trazas se guarden en un fichero (FileHandler) y que se
+#muestren por pantalla (ConsoleHandler)
+handlers= java.util.logging.FileHandler, java.util.logging.ConsoleHandler
+
+java.util.logging.FileHandler.pattern=%d{HH:mm:ss,SSS} (%t) %-5p [%c] - %m%n
+# Nivel por defecto (si no especifico algo diferente)
+.level= INFO
+#Propiedades de los \u0093Handlers\u0094
+#Si pongo, p.ej. WARNING en vez de ALL, filtrar\u00EDa por este handler
+#java.util.logging.FileHandler.append = true
+java.util.logging.ConsoleHandler.level = ALL
+java.util.logging.ConsoleHandler.formatter = java.util.logging.SimpleFormatter
+#java.util.logging.FileHandler.pattern = %ghola%u.log
+java.util.logging.FileHandler.level = ALL
+java.util.logging.FileHandler.formatter = java.util.logging.SimpleFormatter
+
+
+#java.util.logging.FileHandler.formatter = java.util.logging.XMLFormatter
+#Especifico para una clase, o para un paquete
+lprg.p2.level= ALL
+lprg.p2.Motor.level=FINEST
+
